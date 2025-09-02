@@ -1,0 +1,81 @@
+body {
+background: #0b1220;
+color: #e5e7eb;
+line-height: 1.6;
+}
+
+
+.container {
+width: min(1100px, 92%);
+margin: auto;
+}
+
+
+header {
+position: sticky;
+top: 0;
+background: #111827;
+padding: 1rem 0;
+}
+
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.brand {
+font-weight: bold;
+font-size: 1.2rem;
+}
+
+
+.nav-links {
+display: flex;
+gap: 1rem;
+}
+
+
+.btn {
+background: #7c3aed;
+color: white;
+padding: 0.7rem 1rem;
+border-radius: 8px;
+text-decoration: none;
+display: inline-block;
+}
+
+
+section {
+padding: 3rem 0;
+}
+
+
+h2 {
+font-size: 2rem;
+}
+
+
+.skills-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+gap: 1rem;
+}
+
+
+.chip {
+background: #1f2937;
+padding: 0.8rem;
+border-radius: 8px;
+text-align: center;
+}
+
+
+footer {
+text-align: center;
+padding: 1.5rem;
+background: #111827;
+color: #9ca3af;
+}
